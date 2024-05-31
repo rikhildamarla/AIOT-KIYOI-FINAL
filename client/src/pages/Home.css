@@ -1,0 +1,58 @@
+body {
+    background-color: #e6f7ff !important
+}
+
+.hero-section {
+    background-color: #e6f7ff !important; /* Light blue background */
+    padding: 50px 0; /* Adjust padding as needed */
+  }
+  
+  .hero-section .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .hero-content {
+    margin-top: 120px;
+    max-width: 600px; /* Limit the width of the content */
+    margin-right: 20px; /* Adjust the margin to add horizontal space */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .hero-image {
+    margin-top: 40px;
+    max-width: 50%; /* Adjust the max-width as needed */
+  }
+  
+  .hero-image img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 991px) {
+    .hero-section .container {
+      flex-direction: column; /* Stack the content and image vertically when navbar links collapse */
+      align-items: flex-start; /* Align items to the start of the container */
+    }
+  
+    .hero-content {
+      margin-right: 0; /* Remove the margin when stacked */
+      margin-bottom: 20px; /* Add margin to separate text and image */
+    }
+  
+    .hero-image {
+      max-width: 100%; /* Ensure the image takes full width when stacked */
+    }
+  }
+  
