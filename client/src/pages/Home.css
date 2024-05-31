@@ -1,5 +1,5 @@
 body {
-    background-color: #e6f7ff !important
+    background-color: #ffffff ;
 }
 
 .hero-section {
@@ -22,7 +22,7 @@ body {
   
   .hero-image {
     margin-top: 40px;
-    max-width: 50%; /* Adjust the max-width as needed */
+    max-width: 70%; /* Adjust the max-width as needed */
   }
   
   .hero-image img {

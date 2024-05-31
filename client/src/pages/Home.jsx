@@ -18,6 +18,9 @@ function Home() {
             <p>
               Whether you need physiotherapy or psychotherapy, or other specialized services, we're here to support you on your journey.
             </p>
+            <p>
+              Remember out motto, Movement is Medicine!
+            </p>
           </div>
           <div className="hero-image">
             <img src="/hero_icons.png" alt="Hero Icons" />
